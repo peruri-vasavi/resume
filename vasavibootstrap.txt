@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Resume</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+  </head>
+
+  <body>
+<div class="container p-3 my-3 bg-dark text-white">
+  <header class="bg-primary bg-gradient text-white py-5">
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 text-left text-md-center mb-3">
+      <img class="rounded-circle img-fluid" src="https://www.dqindia.com/wp-content/uploads/2020/04/woman-3687084_640-640x420.jpg" alt="Profile Photo" />
+    </div>
+    <div class="col-md-9">
+      <h1>Peruri Vasavi Sri Sai Vardhani</h1>
+      <h5>Web Developer</h5>
+      <p class="border-top pt-3">I am hardworking and motivated Computer Science and Engineering student.Eager to work as an intern to exhibit and improve my skills through experience. </p>
+    </div>
+  </div>
+</div>
+</header>
+
+
+<nav class="bg-dark text-white-50 mb-5">
+  <div class="container">
+   <div class="row p-3">
+     <div class="col-md pb-2 pb-md-0">
+        <svg width="1em" height="1.5em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+        </svg>
+        <a href="#" class="text-white ml-2">perurivasavi@gmail.com</a>
+     </div>
+
+      <div class="col-md text-md-right">
+        <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+        </svg>
+        <a href="#" class="text-white ml-2">8074053833</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<main class="container">
+  <div class="row">
+    <div class="col-md mb-5">
+     <!-- work experience -->
+    </div>
+    <div class="col-md mb-3">
+     <!-- education -->
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md mb-0">
+      <!-- skills -->
+    </div>
+    <div class="col-md">
+      <!-- recent work -->
+    </div>
+  </div>
+</main>
+
+
+<h2 class="mb-3">Education</h2>
+<ul>
+  <li>
+    <h6 class="text-primary">Bachelor of Technology(2019-2023)</h6>
+    <h5>Adikavi Nannaya University</h5>
+    <h6>CSE</h6>
+    <h6>GPA: 9.0</h6>
+  </li>
+  <li>
+    <h6 class="text-primary">Intermediate(2017-2019)</h6>
+    <h5>Pratibha Junior College</h5>
+    <h6>GPA: 9.6</h6>
+  <li>
+    <h6 class="text-primary">SSC(2016-2017)</h6>
+    <h5>SKVT(E.M)High School</h5>
+    <h6>GPA: 10.0</h6>
+  </li>
+</ul>
+
+
+<h2 class="mb-3">Certification Courses</h2>
+<ul>
+  <li>
+    <h6 class="text-primary">Coursera   |   2020</h6>
+    <ul class="b">
+     <li>Programming for Everybody<br>(getting started with python)</li>
+     <li>Python Data Structures</li>
+    </ul>
+  </li>
+  <li>
+    <h6 class="text-primary">Udemy   |   2021</h6>
+    <ul class="b">
+     <li>Front End Web Development Ultimate Course 2021</li>
+    </ul>
+  </li>
+  <li>
+    <h6 class="text-primary">Great Learning   |   2021</h6>
+    <ul class="b">
+     <li>Software Testing Fundamentals</li>
+    </ul>
+  </li>
+  <li>
+    <h6 class="text-primary">Swayam(CEC)   |   Ongoing</h6>
+    <ul class="b">
+     <li>Database Managemnet Systems</li>
+    </ul>
+  </li>
+</ul>
+
+
+<h2 class="mb-3">Skills</h2>
+<div class="progress mb-4" style="height:25px;">
+  <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 75%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">C,Python</div>
+</div>
+<div class="progress mb-4" style="height:25px;">
+  <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 85%" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100">HTML</div>
+</div>
+<div class="progress mb-4" style="height:25px;">
+  <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 85%" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100">CSS</div>
+</div>
+<div class="progress mb-4" style="height:25px;">
+  <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 85%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">SQL</div>
+</div>
+<div class="progress mb-4" style="height:25px;">
+  <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 90%" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">Presentation</div>
+</div>
+
+<h2 class="mb-3">Projects</h2>
+<h6 class="text-primary"><b>Plastic Waste Management</b></h6>
+<h5>Aavishkaar  |  2021</h5>
+<ul class="b">
+  <li>Designed a preliminary model to understand the requirements.</li>
+  <li>Developed an e-commerce website with a plantation scheme.</li>
+</ul>
+
+<h2 class="mb-3">Online Internship</h2>
+<h6 class="text-primary"><b>Cyber Security</b></h6>
+<h5>Skill vertex  |  online internship</h5>
+<h5><b>Project:</b></h5>
+<ul class="b">
+  <li>Observing the differences between spam and phishing mails and seperating them.</li>
+</ul>
+
+<h2 class="mb-3">My Hobbies</h2>
+<ul class="b">
+  <li>Dance</li>
+  <li>Singing</li>
+</ul>
+
+<h2 class="mb-3">Languages Known</h2>
+<ul class="b">
+  <li>English</li>
+  <li>Telugu(Native)</li>
+  <li>Hindi</li>
+</ul>
+
+
+<footer class="bg-primary text-white-50 text-center mt-5 p-3">
+  &copy; 2022  - <a href="https://www.linkedin.com/in/peruri-vasavi-1a189b223" class="text-white-50">LinkedIn</a> 
+</footer>
+
+</div>
+  </body>
+</html>
